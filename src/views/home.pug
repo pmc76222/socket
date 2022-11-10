@@ -17,7 +17,11 @@ html(lang="en")
             div#room
                 h3
                 ul 
-                form
+                form#name
+                    input(pleaceholder="message", required, type="text")
+                    button Save
+
+                form#msg
                     input(pleaceholder="message", required, type="text")
                     button Send
             
